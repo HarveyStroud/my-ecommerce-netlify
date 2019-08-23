@@ -12,11 +12,12 @@
         Test using this credit card:
         <span class="cc-number">4242 4242 4242 4242</span>, and enter any 5 digits for the zip code
       </small>
+      <!-- stripe="pk_test_5ThYi0UvX3xwoNdgxxxTxxrG" -->
       <card
         class="stripe-card"
         id="card"
         :class="{ complete }"
-        stripe="pk_test_5ThYi0UvX3xwoNdgxxxTxxrG"
+        stripe="pk_test_NtNh5ztyxJ1Qi7KXNaWPVTdm00Facs4hnt"
         :options="stripeOptions"
         @change="complete = $event.complete"
       />
